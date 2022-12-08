@@ -1,0 +1,66 @@
+body
+{
+    text-align: center;
+}
+
+h3
+{
+    font-size: 25px !important;
+
+}
+.btn-success:hover
+{
+    background-color: red;
+}
+canvas
+{
+    margin-top: 200px;
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example
+{
+    from{box-shadow: 1px 1px 38px blue;}
+    to{box-shadow: 1px 1px 38px yellow;}
+}
+.copy_right_footer 
+{ position: fixed;
+     color: white; 
+     bottom: 0; width: 100%; 
+     background-color:grey; 
+     line-height: 3; 
+     text-align: center; 
+    } 
+     canvas 
+     { border:5px 
+        solid white; 
+        border-radius:20px; 
+        box-shadow:5px 5px 5px grey; 
+        margin-top: 50px;
+     }
+
+.result_para_tag
+ { 
+    box-shadow:5px 5px 5px grey; 
+    font-size: 20px; 
+}
+.heading_div 
+{ 
+    float: none ;
+     background: white ; 
+     padding: 10px; 
+     border-radius: 20px;
+     color: black;
+     box-shadow:5px 5px 5px grey; } 
+
+.heading_div2 { 
+    font-size: 18px ; 
+}
+.heading 
+{ font-size: 23px; 
+    width: 100%;
+     margin: 0px; 
+    box-shadow:5px 5px 5px grey; 
+}
+
